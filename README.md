@@ -29,3 +29,8 @@ docker run -p 9000:9000 \
   minio/minio:RELEASE.2020-01-25T02-50-51Z server /data
 
 ```
+
+## 参考官方资料
+* [适用于与Amazon S3兼容的云存储的MinIO Java SDK](https://docs.min.io/cn/java-client-quickstart-guide.html) 
+* https://docs.min.io/docs/java-client-api-reference
+* https://docs.min.io/cn/java-client-api-reference.html
