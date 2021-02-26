@@ -8,6 +8,14 @@ minio:
   accessKey: username
   secretKey: password
   bucketName: sourceMaterial
+
+# minio 文件存储配置信息https://play.min.io的免费托管的MinIO服务。你可以随意使用此服务进行测试和开发。此示例中显示的访问凭据是公开的
+minio:
+  endpoint: https://play.min.io
+  accessKey: Q3AM3UQ867SPQQA43P2F
+  secretKey: zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
+  bucketName: sourceMaterial
+
 ```
 
 ## 测试接口地址信息 URL： 
