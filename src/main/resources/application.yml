@@ -1,0 +1,26 @@
+
+server:
+  port: 8080
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+# minio 文件存储配置信息https://play.min.io的免费托管的MinIO服务。你可以随意使用此服务进行测试和开发。此示例中显示的访问凭据是公开的
+minio:
+  endpoint: https://play.min.io
+  accessKey: Q3AM3UQ867SPQQA43P2F
+  secretKey: zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
+  bucketName: sourceMaterial
+
+## minio 文件存储配置信息
+#minio:
+#  endpoint: http://your.minio.com:9000
+#  accessKey: AKIAIOSFODNN7EXAMPLE
+#  secretKey: wJalrXUtnFEMIK7MDENGbPxRfiCYEXAMPLEKEY
+#  bucketName: sourceMaterial
+
+
